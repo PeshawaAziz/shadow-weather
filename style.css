@@ -1,0 +1,29 @@
+* {
+    font-family: "Rubik";
+}
+
+body {
+    background-color: #1a1a1a !important;
+}
+
+.container {
+    max-width: 400px !important;
+}
+
+.card {
+    background-color: #1f1f1f !important;
+}
+
+.input-label {
+    color: #999999;
+}
+
+.city-input {
+    background-color: #161616 !important;
+    color: #c7c7c7 !important;
+    border: solid 1px #101010 !important;
+}
+
+.weather-info {
+    color: #c0c0c0;
+}

@@ -1,0 +1,58 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <title>Shadow Weather</title>
+    </head>
+    <body class="text-light">
+        <div class="container my-5">
+            <h1 class="card shadow-sm display-6 text-center py-4 my-4">
+                Shadow Weather
+            </h1>
+            <form class="city-search-form my-4 text-center">
+                <label class="input-label my-2" for="city">
+                    Enter a location for weather information
+                </label>
+                <div class="d-flex">
+                    <input
+                        class="city-input me-2 form-control rounded-3"
+                        type="text"
+                        name="city"
+                        placeholder="City name"
+                    />
+                    <input
+                        class="btn btn-warning rounded-3"
+                        type="submit"
+                        value="Search"
+                    />
+                </div>
+            </form>
+            <div class="info-card card p-1 shadow-sm rounded-3 d-none">
+                <img
+                    class="time card-img-top rounded-3"
+                    src="https://via.placeholder.com/400x300/000000"
+                />
+                <div class="icon mx-auto text-center"></div>
+                <div class="info text-uppercase text-center">
+                    <h5 class="my-3">City name</h5>
+                    <div class="my-3">Weather condition</div>
+                    <div class="display-4 my-4">
+                        <span>temp</span>
+                        <span>&deg;C</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/forecast.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
