@@ -27,3 +27,7 @@ body {
 .weather-info {
     color: #c0c0c0;
 }
+
+.icon {
+    filter: invert(100%);
+}

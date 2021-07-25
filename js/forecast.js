@@ -1,4 +1,4 @@
-const API_KEY = "a2kNpeKuQpqSH5sjBH18ZaQZshqC0n1j";
+const API_KEY = "WodAE1t9d2LyvY8RuajZIOhMCoRV1Xm5";
 
 async function getCity(cityName) {
     const BASE =
